@@ -1,11 +1,11 @@
 // kredensial
-const spreadsheetId      = ''
+const spreadsheetId      = '1iwU6Z8igNSklY_nP3XFsn2kfesZFRpJuCptNJ18OaNY'
 const dataOrderSheetName = 'Data Order'
 const logSheetName       = 'Log'
 
-const botHandle      = ''
-const botToken       = ''
-const appsScriptUrl  = ''
+const botHandle      = '@MendingStoreBot'
+const botToken       = '6897961559:AAFl5Q8ILsZSMX1V0QsRzJpAih4W0NRBw8k'
+const appsScriptUrl  = 'https://script.google.com/macros/s/AKfycbwfZ_1onptD0Badw6KzRCLcVP9lm1WRMU_ASuRvRBWWW8SY8KDE4aziDL6L4ka5tmk2AA/exec'
 const telegramApiUrl = `https://api.telegram.org/bot${botToken}`
 
 
@@ -313,4 +313,21 @@ function setWebhook() {
   
   Logger.log(response)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
